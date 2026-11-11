@@ -11,6 +11,7 @@ Hands-on projects across the modern AI engineering stack: **LLM evaluation, RAG,
 | [**fin-rag**](https://github.com/bloch-ai-engineering/fin-rag) | RAG over SEC filings (FinanceBench) evaluated on correctness, faithfulness and hit-rate, with improvement cycles | LangChain · FAISS · RAGAS |
 | [**llm-copywriter-eval**](https://github.com/bloch-ai-engineering/llm-copywriter-eval) | LLM content generation with a human rubric, LLM-as-a-judge, and judge–human agreement analysis | OpenAI SDK · Pydantic · Nebius |
 | [**skypilot-ddp-training**](https://github.com/bloch-ai-engineering/skypilot-ddp-training) | Multi-node PyTorch DDP on Kubernetes H100s, with a 1→4 GPU NCCL communication-overhead analysis | PyTorch DDP · SkyPilot · mk8s |
+| [**qlora-attention-lab**](https://github.com/bloch-ai-engineering/qlora-attention-lab) | QLoRA fine-tuning of small LLMs to answer at child/student/expert level, plus attention implemented from scratch | PEFT · bitsandbytes · TRL · PyTorch |
 | [**seq-models-nlp**](https://github.com/bloch-ai-engineering/seq-models-nlp) | Subword tokenization → Word2Vec → MLP news classifier (91%), and a char-level LSTM language model | PyTorch · gensim · 🤗 tokenizers |
 | [**torch-optim-lab**](https://github.com/bloch-ai-engineering/torch-optim-lab) | SGD, Momentum, AdaGrad and Adam from scratch, plus numerical stability and L1 sparsity | PyTorch |
 
